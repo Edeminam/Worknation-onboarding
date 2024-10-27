@@ -104,8 +104,36 @@ h1,
     border-radius: .3rem;
 }
 
+.pro-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--wn-primary-color);
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.pro-btn:hover{
+    background-color: #098a69;
+    transition: .5s ease-in-out;
+}
+.login p{
+    padding: 0;
+    text-align: center;
+}
+
 .main-left {
     width: 40%;
     width: 524px;
     background: #F1FFFC;
+}
+
+.content-left .bgs-img{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
